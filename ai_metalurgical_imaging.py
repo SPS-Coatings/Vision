@@ -1,4 +1,4 @@
-import os
+lurimport os
 from PIL import Image as PILImage
 from agno.agent import Agent
 from agno.models.google import Gemini
@@ -32,13 +32,13 @@ with st.sidebar:
             st.rerun()
     
     st.info(
-        "This tool provides AI-powered analysis of medical imaging data using "
-        "advanced computer vision and radiological expertise."
+        "This tool provides AI-powered analysis of metalurgical imaging data using "
+        "advanced computer vision and macro and microscoping material expertise."
     )
     st.warning(
         "⚠DISCLAIMER: This tool is for educational and informational purposes only. "
-        "All analyses should be reviewed by qualified healthcare professionals. "
-        "Do not make medical decisions based solely on this analysis."
+        "All analyses should be reviewed by qualified Metalurgy professionals. "
+        "Do not make decisions based solely on this analysis."
     )
 
 medical_agent = Agent(
@@ -92,8 +92,8 @@ IMPORTANT: Use the DuckDuckGo search tool to:
 Format your response using clear markdown headers and bullet points. Be concise yet thorough.
 """
 
-st.title("🏥 Medical Imaging Diagnosis Agent")
-st.write("Upload a medical image for professional analysis")
+st.title("🏥 Metalurgy Imaging Analysis Agent")
+st.write("Upload a metalurgy image for professional analysis")
 
 # Create containers for better organization
 upload_container = st.container()
@@ -153,4 +153,4 @@ if uploaded_file is not None:
                 except Exception as e:
                     st.error(f"Analysis error: {e}")
 else:
-    st.info("👆 Please upload a medical image to begin analysis")
+    st.info("👆 Please upload a metalurgy image to begin analysis")
