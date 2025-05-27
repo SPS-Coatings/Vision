@@ -4,3 +4,4 @@ Pillow
 markdown
 google-generativeai
 google-genai
+duckduckgo-search
