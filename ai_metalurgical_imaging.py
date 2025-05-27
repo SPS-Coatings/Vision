@@ -92,7 +92,7 @@ IMPORTANT: Use the DuckDuckGo search tool to:
 Format your response using clear markdown headers and bullet points. Be concise yet thorough.
 """
 
-st.title("🏥 Metalurgy Imaging Analysis Agent")
+st.title("Metalurgy Imaging Analysis Agent")
 st.write("Upload a metalurgy image for professional analysis")
 
 # Create containers for better organization
