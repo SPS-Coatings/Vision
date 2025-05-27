@@ -102,7 +102,7 @@ analysis_container = st.container()
 
 with upload_container:
     uploaded_file = st.file_uploader(
-        "Upload Medical Image",
+        "Upload Image",
         type=["jpg", "jpeg", "png", "dicom"],
         help="Supported formats: JPG, JPEG, PNG, DICOM"
     )
