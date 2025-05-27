@@ -120,7 +120,7 @@ if uploaded_file is not None:
             
             st.image(
                 resized_image,
-                caption="Uploaded Medical Image",
+                caption="Uploaded Image",
                 use_container_width=True
             )
             
